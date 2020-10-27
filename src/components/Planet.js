@@ -13,6 +13,7 @@ const Planet = ({ match }) => {
 
 
     const marsRoverPics = async()=>{
+        console.log('hit')
             const  KEY = 'edz1IInEZpnZubV09AMVZYN1746qxWQtvhMHZ72T';
             const response = await axios.get(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=${KEY}`);
         
@@ -40,11 +41,12 @@ const Planet = ({ match }) => {
 
 
     const renderMarsRover = ()=>{
+        console.log(marsPhotos);
         if(marsPhotos !== null){
             return marsPhotos.map((photo)=>{
                 return (
-                    <Fragment key={photo.id} className="w-3 p-4 m-0">
-                        <img height="300px" width="300px" src={`${photo.img_src}`} alt="planet mars" />
+                    <Fragment key={photo.id}>
+                        <img src={`${photo.img_src}`} alt="planet mars" className="my-2 w-1/3 p-2" />
                     </Fragment>
                 )
             });
@@ -56,11 +58,11 @@ const Planet = ({ match }) => {
 
 
     return (
-        <div class="container mx-auto">
+        <div className="container mx-auto">
             {planet}
             {marsRoverButton()}
-            <div className="flex flex-row flex-wrap justify-items-auto">
-                {renderMarsRover()}
+            <div className="flex flex-row flex-wrap justify-between my-2">
+                  {renderMarsRover()}
             </div>
             
         </div>
