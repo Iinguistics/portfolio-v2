@@ -7,7 +7,6 @@ const Header = () => {
    
    const menuButton = ()=>{
      setMenu(!menu);
-     console.log(menu)
    }
 
     return (
