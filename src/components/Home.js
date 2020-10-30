@@ -14,7 +14,7 @@ const Home = () => {
         {
             params: {
                 date: getCurrent(),
-                hd: false,
+                hd: true,
                 api_key: KEY
             }
         }
