@@ -19199,6 +19199,17 @@ video {
   animation: bounce 1s infinite;
 }
 
+/* good link color as well #3c366b; */
+
+a{
+  color: #3c366b;
+  font-weight: 500;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -93570,4 +93581,3 @@ video {
     animation: bounce 1s infinite;
   }
 }
-

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { KEY } from '../ApiKeys/nasaKey';
 import Spinner from './Helpers/Spinner';
 
-const Earth = () => {
+const LandsatEarth = () => {
     const [lat, setLat] = useState(0);
     const [long, setLong] = useState(0);
     const [satImg, setSatImg] = useState("");
@@ -16,7 +16,10 @@ const Earth = () => {
        setLoading(true);
        const response = await axios.get(`https://api.nasa.gov/planetary/earth/imagery?lon=${long}&lat=${lat}&date=2020-10-01&dim=0.15&api_key=${KEY}`)
        setSatImg(response.config.url);
-       setLoading(false);
+       setTimeout(()=>{
+        setLoading(false);
+       }, 6000)
+       
     }
  
         const renderSatImg = ()=>{
@@ -86,4 +89,4 @@ const Earth = () => {
     )
 }
 
-export default Earth
+export default LandsatEarth
