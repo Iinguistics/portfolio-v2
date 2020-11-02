@@ -2,3 +2,12 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* good link color as well #3c366b; */
+
+a{
+    color: #3c366b;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: underline;
+}
