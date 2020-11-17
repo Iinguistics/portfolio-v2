@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-import { KEY } from '../ApiKeys/nasaKey';
+// TODO:  import from env
+ import { KEY } from '../../nasaKey';
 import Spinner from './Helpers/Spinner';
+
+
 
 const LandsatEarth = () => {
     const [lat, setLat] = useState(33.413102); // Phoenix
@@ -9,14 +12,21 @@ const LandsatEarth = () => {
     const [satImg, setSatImg] = useState("");
     const [loading, setLoading] = useState(false);
 
-    const cors = 'https://cors-anywhere.herokuapp.com/'
+    //const cors = 'https://cors-anywhere.herokuapp.com/'
 
+        const date = new Date();
+        const today = date.getDate();
+        const month = date.getMonth();
+        const year = date.getFullYear();
+        const current = `${year}-${month + 1}-${today}`
+
+       
     
     const earthHandler = async(e)=>{
       e.preventDefault();
       setSatImg("");
       setLoading(true);
-      const response = await axios.get(`${cors}https://api.nasa.gov/planetary/earth/imagery?lon=${long}&lat=${lat}&date=2020-10-01&dim=0.15&api_key=${KEY}`)
+      const response = await axios.get(`https://api.nasa.gov/planetary/earth/imagery?lon=${long}&lat=${lat}&date=${current}&dim=0.15&api_key=${KEY}`)
       setSatImg(response.config.url);
       setTimeout(()=>{
        setLoading(false);
