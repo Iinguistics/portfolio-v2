@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Fragment } from 'react';
+import React, { useState, Fragment } from 'react';
 import axios from 'axios';
 
 
@@ -8,9 +8,7 @@ const Mars = ({ match }) => {
     const [marsRover, setMarsRover] = useState({});
 
     
-    useEffect(()=>{
-    console.log(planet);
-    }, [])
+   
 
 
     const marsRoverPics = async()=>{

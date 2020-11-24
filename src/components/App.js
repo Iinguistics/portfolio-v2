@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
+import Mecury from './planets/Mecury';
 import Mars from './planets/Mars';
 import LandsatEarth from './LandsatEarth';
 import '../styles/App.css';
@@ -14,6 +15,7 @@ const App = ()=>{
             <Header />
             <div className="container m-auto my-12">
             <Route path="/" exact component={Home} />
+            <Route path="/planet/mecury" exact component={Mecury} />
             <Route path="/planet/mars" exact component={Mars} />
             <Route path="/landsat/earth" exact component={LandsatEarth} />
             </div>

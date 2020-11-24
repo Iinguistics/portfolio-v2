@@ -19214,6 +19214,14 @@ li{
   list-style: none;
 }
 
+img{
+  border-radius: 4px;
+}
+
+.facts{
+  width: 100%;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
