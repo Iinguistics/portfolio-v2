@@ -19218,10 +19218,6 @@ img{
   border-radius: 4px;
 }
 
-.facts{
-  width: 100%;
-}
-
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -93593,3 +93589,6 @@ img{
     animation: bounce 1s infinite;
   }
 }
+
+
+
