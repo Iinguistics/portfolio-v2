@@ -19201,11 +19201,6 @@ video {
 
 /* good link color as well #3c366b; */
 
-a{
-  color: #3c366b;
-  font-weight: 500;
-}
-
 a:hover{
   text-decoration: underline;
 }
@@ -19216,6 +19211,103 @@ li{
 
 img{
   border-radius: 4px;
+}
+
+#side-link-email {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 0.50rem;
+  right: auto;
+  z-index: 1;
+}
+
+.side-email-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.side-email-flex img{
+  height: 22px;
+  width: 22px;
+  margin-bottom: 30px;
+}
+
+.side-email-flex a{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 12px;
+  text-decoration: none;
+  color: #34568B;
+  letter-spacing: -2px;
+}
+
+.side-email-flex a:hover{
+  color: orangered;
+  animation: bounce 1s;
+}
+
+#side-link {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 0.50rem;
+  left: auto;
+  z-index: 1;
+}
+
+.side-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.line{
+  width: 1px;
+  height: 100px;
+  margin-top: 20px;
+  background-color: orangered;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  80% {
+    transform: translateY(-10px);
+  }
+}
+
+/*divider*/
+
+.divider-title {
+  align-items: center;
+  display: flex;
+  width: 65%;
+}
+
+.divider{
+  height: 1px;
+  background: #444;
+  flex: 0.7;
+}
+
+/*about*/
+
+#about-title{
+  padding-right: 0.50rem;
 }
 
 @media (min-width: 640px) {
