@@ -19201,6 +19201,10 @@ video {
 
 /* good link color as well #3c366b; */
 
+html {
+  scroll-behavior: smooth;
+}
+
 a:hover{
   text-decoration: underline;
 }
@@ -19308,6 +19312,59 @@ img{
 
 #about-title{
   padding-right: 0.50rem;
+}
+
+/* blend */
+
+.blendParent {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  padding-left: 0px;
+}
+
+.all{
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
+  background-repeat: no-repeat;
+  transition: all 200ms ease-in-out;
+}
+
+.blend-3{
+  background-image: url('../assets/about/headshot.jpg');
+}
+
+.blendParent:hover .blend, .blendParent:focus .blend{
+  background-color: #00d177;
+  background-blend-mode:luminosity;
+  transition-delay: 0s;
+  transform: scale(1.2);
+}
+
+.all:before{
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.blendParent:hover .all, .blendParent:focus .all{
+  background-color: #00d177;
+  background-blend-mode:luminosity;
+  transition-delay: 0s;
+  transform: scale(1.2);
+}
+
+.test{
+  font-size: 2.25rem;
 }
 
 @media (min-width: 640px) {
@@ -93681,6 +93738,3 @@ img{
     animation: bounce 1s infinite;
   }
 }
-
-
-
