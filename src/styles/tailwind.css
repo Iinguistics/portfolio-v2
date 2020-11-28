@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
   }
 
+h3{
+  font-family: 'Russo One', sans-serif;  
+}
+
 
 a:hover{
     text-decoration: underline;
@@ -193,9 +197,19 @@ img{
   }
 
 
+  video{
+    height: 320px;
+    width: 480px;
+}
+
+
+
+
   @media (max-width: 767px) {
     .blendParent {
         width: 200px;
         height: 200px;
     }
+
+    
   }

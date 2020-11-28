@@ -10302,6 +10302,10 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-custom {
+  font-family: Roboto;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -19205,6 +19209,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h3{
+  font-family: 'Russo One', sans-serif;
+}
+
 a:hover{
   text-decoration: underline;
 }
@@ -19375,6 +19383,11 @@ img{
   position: absolute;
   height: 50vh;
   width: 85%;
+}
+
+video{
+  height: 320px;
+  width: 480px;
 }
 
 @media (max-width: 767px) {
@@ -29108,6 +29121,10 @@ img{
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-custom {
+    font-family: Roboto;
   }
 
   .sm\:font-hairline {
@@ -47703,6 +47720,10 @@ img{
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-custom {
+    font-family: Roboto;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -66296,6 +66317,10 @@ img{
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-custom {
+    font-family: Roboto;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -84887,6 +84912,10 @@ img{
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-custom {
+    font-family: Roboto;
   }
 
   .xl\:font-hairline {

@@ -8,13 +8,13 @@ const About = () => {
             <div className="divider"></div> 
            </div>
 
-           <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center justify-center">
-             <div className="w-1/2 text-left ">
+           <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
+             <div className="w-2/3 md:w-1/2 md:pr-10">
                     <p className="text-xl">Hello! I'm James, a front end developer based in El Dorado Hills, CA. I enjoy creating software that has a positive impact of people's life, whether that be websites, applications, or anything in between.</p>
                     <p className="text-xl">Learning is one of my passion's, I like to challenge myself, and do interesting things that matter.</p><br />
                     <p className="text-xl">I enjoy problem solving, & have high ambitions with high attention to detail, I am interested in the entire frontend, backend spectrums & working with fellow ambitious life long learners.</p>
                 </div>
-                <div className="w-1/2  mt-8">
+                <div className="w-2/3 md:w-1/2  mt-10 md:mt-0">
                 <a href="https://github.com/Iinguistics" target="_blank" rel="noopener noreferrer">
                   <div className="blendParent item "><div className="blend-3 all"></div></div>
                 </a> 
