@@ -180,3 +180,9 @@ img{
 .test{
     font-size: 2.25rem;
 }
+
+#particles-js{
+    position: absolute;
+    height: 50vh;
+    width: 85%;
+  }

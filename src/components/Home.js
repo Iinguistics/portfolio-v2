@@ -54,7 +54,7 @@ const Home = () => {
         </ScrollAnimation>
         
         <ScrollAnimation animateIn="fadeInUp" delay={300}>
-        <section className="my-4 md:h-screen"  id="skills">
+        <section className="my-4 md:h-screen container "  id="skills">
           <Skills />
         </section>
         </ScrollAnimation>
