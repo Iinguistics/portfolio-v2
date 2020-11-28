@@ -19217,6 +19217,10 @@ img{
   border-radius: 4px;
 }
 
+#no-underline{
+  text-decoration: none;
+}
+
 #side-link-email {
   width: 40px;
   position: fixed;
@@ -19371,6 +19375,13 @@ img{
   position: absolute;
   height: 50vh;
   width: 85%;
+}
+
+@media (max-width: 767px) {
+  .blendParent {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (min-width: 640px) {

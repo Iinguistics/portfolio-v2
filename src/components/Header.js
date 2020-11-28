@@ -27,22 +27,22 @@ const Header = () => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             
-              <Link to="/">
-              <div className="flex-shrink-0 text-gray-300">
+              <Link to="/"
+               className="flex-shrink-0 text-gray-300" id="no-underline">
               James Goytia
-            </div>
+            
               </Link>
             
             <div className="hidden sm:block sm:ml-6">
               <div className="flex">
                 <a href="#about"  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">About</a>
                 <a href="#skills" className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Skills</a>
-                <a href="#" className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Projects</a>
+                <a href="#work" className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Work</a>
                 <a href="mailto:jmsgoytia@gmail.com" className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
               </div>
             </div>
           </div>
-          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <div className=" inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <a  href="https://github.com/Iinguistics" target="_blank" rel="noopener noreferrer">
             <img src={require('../assets/icons/github-icon.png')} alt="github"/> 
             </a>
@@ -52,10 +52,10 @@ const Header = () => {
     
       <div className={menu === true? 'block sm:block': 'hidden sm:hidden'}>
         <div className="px-2 pt-2 pb-3">
-          <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">About</a>
-          <a href="#" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white  focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Skills</a>
-          <a href="#" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white  focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Projects</a>
-          <a href="#" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white  focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
+          <a href="#about" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">About</a>
+          <a href="#skills" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white  focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Skills</a>
+          <a href="#work" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white  focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Work</a>
+          <a href="#contact" className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white  focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
         </div>
       </div>
     </nav>

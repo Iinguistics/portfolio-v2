@@ -20,7 +20,7 @@ const Skills = () => {
               </div>
             
 
-             <div className="flex items-center flex-row flex-wrap  text-center mt-12 xl:mt-32" >
+             <div className="flex items-center flex-row flex-wrap  text-center mt-12 xl:mt-32 container m-auto" >
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">JavaScript (ES6+)</p>
                  </div>
