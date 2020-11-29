@@ -9,7 +9,7 @@ import Test from './Test';
 const Home = () => {
    return(
        <Fragment>
-         <section className="w-2/3 my-16 md:ml-20 md:mt-10 md:h-screen xl:mt-36">
+         <section className="w-2/3 ml-16 my-16 md:ml-24 md:mt-10 md:h-screen xl:mt-36">
          <h5>Hi, my name is</h5>
             <h1 className="text-xl md:text-5x1 xl:text-6xl">James Goytia</h1>
             <h3 className="text-xl md:text-5xl xl:text-6x1 md:w-2/3 leading-snug">I want to build things that make a difference</h3>
@@ -62,12 +62,12 @@ const Home = () => {
         </section>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInUp" delay={200}>
+        <ScrollAnimation animateIn="fadeInUp" delay={100}>
         <section className="my-4"  id="work">
           <Work />
         </section>
         </ScrollAnimation>
-
+        <div className="md:h-24 xl:h-40"></div>
         <ScrollAnimation animateIn="fadeInUp" delay={200}>
         <section className="my-20"  id="contact">
           <Contact />
