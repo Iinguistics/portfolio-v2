@@ -12,10 +12,31 @@ h3{
   font-family: 'Russo One', sans-serif;  
 }
 
-
-a:hover{
-    text-decoration: underline;
+a{
+    text-decoration: none;
 }
+
+
+.custom-nav a{
+    display: inline-block;
+    position: relative;
+}
+.custom-nav a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .custom-nav a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
 
 
 li{
@@ -26,10 +47,6 @@ img{
     border-radius: 4px;
 }
 
-
-#no-underline{
-    text-decoration: none;
-}
 
 
 #side-link-email {
@@ -201,6 +218,14 @@ img{
     height: 320px;
     width: 480px;
 }
+
+/*
+nav
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+*/
 
 
 

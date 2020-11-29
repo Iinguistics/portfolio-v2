@@ -25,7 +25,7 @@ const Work = () => {
                 >
                     Hair
                 </a>
-                <div className=" shadow-2xl p-5 rounded-lg text-lg">
+                <div className=" shadow-xl p-5 rounded-lg text-lg">
                 <p>A full stack crud app. Clients can browse through services & book appointments. Employees can login to an employee dashboard
                 to view, update & delete appointments.
                 </p>
@@ -59,7 +59,7 @@ const Work = () => {
                 >
                     Hair
                 </a>
-                <div className=" shadow-2xl p-5 rounded-lg text-lg">
+                <div className=" shadow-xl p-5 rounded-lg text-lg">
                 <p>A full stack crud app. Clients can browse through services & book appointments. Employees can login to an employee dashboard
                 to view, update & delete appointments.
                 </p>

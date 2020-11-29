@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className="w-2/3 md:w-1/2  mt-10 md:mt-0">
                 <a href="https://github.com/Iinguistics" target="_blank" rel="noopener noreferrer">
-                  <div className="blendParent item "><div className="blend-3 all"></div></div>
+                  <div className="blendParent item"><div className="blend-3 all"></div></div>
                 </a> 
                 </div>
              </div>

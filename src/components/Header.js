@@ -30,15 +30,14 @@ const Header = () => {
               <Link to="/"
                className="flex-shrink-0 text-gray-300 " id="no-underline">
               James Goytia
-            
               </Link>
             
-            <div className="hidden sm:block sm:ml-6">
+            <div className="hidden sm:block sm:ml-6 custom-nav">
               <div className="flex">
                 <a href="#about"  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">About</a>
                 <a href="#skills" className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Skills</a>
                 <a href="#work" className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Work</a>
-                <a href="mailto:jmsgoytia@gmail.com" className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
+                <a href="#contact" className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
               </div>
             </div>
           </div>
