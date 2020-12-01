@@ -17,6 +17,7 @@ a{
 }
 
 
+
 .custom-nav a{
     display: inline-block;
     position: relative;
@@ -225,7 +226,10 @@ nav
     overflow: hidden;
 */
 
-
+#footer{
+    width: 100%;
+    bottom: 0;
+}
 
 
   @media (max-width: 767px) {

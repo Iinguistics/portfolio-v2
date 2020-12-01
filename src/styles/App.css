@@ -19413,6 +19413,11 @@ nav
     overflow: hidden;
 */
 
+#footer{
+  width: 100%;
+  bottom: 0;
+}
+
 @media (max-width: 767px) {
   .blendParent {
     width: 200px;

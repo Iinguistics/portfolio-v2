@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 import About from './About';
 import Skills from './Skills';
 import Work from './Work';
 import Contact from './Contact';
-import Test from './Test';
 
 const Home = () => {
    return(
@@ -15,7 +15,7 @@ const Home = () => {
             <h3 className="text-xl md:text-5xl xl:text-6x1 md:w-2/3 leading-snug">I want to build things that make a difference</h3>
             <p className="text-base xl:text-lg my-3 md:w-1/3 md:my-6">I'm a front end developer based in El Dorado Hills, CA specializing in
                 building phenomenal websites, applications, and everything in between.</p>
-            <a href="mailto:jmsgoytia@gmail.com" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-blue-700 mt-4" id="no-underline">Get In Touch</a>
+            <a href="mailto:jmsgoytia@gmail.com" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-blue-700 mt-4" rel="noopener noreferrer">Get In Touch</a>
          </section>
 
          
@@ -69,6 +69,9 @@ const Home = () => {
         </ScrollAnimation>
         <div className="md:h-24 xl:h-40"></div>
         <ScrollAnimation animateIn="fadeInUp" delay={200}>
+            <div className="text-center  m-auto">
+            <Link to="/projects" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-600 hover:bg-blue-700 mt-1">Show More</Link>
+            </div>
         <section className="my-20"  id="contact">
           <Contact />
         </section>
