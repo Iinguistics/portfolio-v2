@@ -8,7 +8,7 @@ const Work = () => {
             <div className="divider"></div> 
            </div>
 
-            {/* project one */}
+            {/* Hair */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
              <div className="w-2/3 md:w-1/2 ">
              <a href="https://hair-salon-site.herokuapp.com/" target="_blank" rel="noopener noreferrer">
@@ -42,7 +42,7 @@ const Work = () => {
                 </div>
              </div>
 
-              {/* project two */}
+              {/* stock search */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
              <div className="w-2/3 md:w-1/2 ">
              <a href="https://stock-api.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -73,7 +73,7 @@ const Work = () => {
                 </div>
              </div>
 
-             {/* project three */}
+             {/* algorithm archive */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
              
                 <div className="w-2/3 md:w-1/2 md:w-1/2 mt-8  p-3">
@@ -102,6 +102,37 @@ const Work = () => {
                 Sorry, your browser doesn't support embedded videos.
                     </video> 
                     </a>
+                </div>
+             </div>
+
+                {/* astrospace */}
+           <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
+             <div className="w-2/3 md:w-1/2 ">
+             <a href="https://astro-space.netlify.app/" target="_blank" rel="noopener noreferrer">
+               <video autoPlay muted loop preload="true">
+                    <source src={require("../assets/work/astro-space.mp4")}
+                    type="video/mp4" />
+                Sorry, your browser doesn't support embedded videos.
+                    </video> 
+                    </a>
+                </div>
+                <div className="w-2/3 md:w-1/2 md:w-1/2 mt-8  p-3">
+                <a href="https://astro-space.netlify.app/" target="_blank" rel="noopener noreferrer"
+                   className="text-xl md:text-3xl hover:text-blue-900 duration-700" id="no-underline"
+                >
+                    Astrospace
+                </a>
+                <div className=" shadow-xl p-5 rounded-lg text-lg">
+                <p>Astronomy app, to learn about the stars & planets ect...
+                </p>
+            </div>
+            
+            <li className="inline p-1 md:p-3">React</li>
+            <li className="inline p-1 md:p-3">Nasa APOD, LandSat & Rover API's</li>
+            <li className="inline p-1 md:p-3">Axios</li>
+            <a href="https://github.com/Iinguistics/astrospace" target="_blank" rel="noopener noreferrer">
+                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" />
+                </a>
                 </div>
              </div>
         </Fragment>   
