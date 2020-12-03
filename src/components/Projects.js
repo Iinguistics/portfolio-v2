@@ -19,7 +19,7 @@ const Projects = () => {
               <h3>More Projects</h3>
           </div>
 
-          {/* project one */}
+          {/* ctdi */}
           <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20 mb-20">
              <div className="w-2/3 md:w-1/2 ">
              <a href="https://github.com/Iinguistics/ctdi" target="_blank" rel="noopener noreferrer">

@@ -23,10 +23,10 @@ const Home = () => {
             {/*side link/email */}  
          <div className="invisible md:visible" id="side-link-email">
             <li className="side-email-flex">
-            <a href="mailto:jmsgoytia@gmail.com">jmsgoytia@gmail.com</a>
+            <a href="mailto:jmsgoytia@gmail.com" rel="noopener noreferrer">jmsgoytia@gmail.com</a>
             </li>
             <li className="side-email-flex">
-            <a className="line"></a>
+            <p className="line"></p>
             </li>
         </div>
 
@@ -46,7 +46,7 @@ const Home = () => {
             </a> 
             </li>
             <li className="side-flex">
-            <a className="line"></a>
+            <p className="line"></p>
             </li>
         </div>
 
