@@ -34,7 +34,7 @@ const Home = () => {
          {/* side link/linkdn  MAKE LINKDIN ACC & UPDATE HREF */}
         <div className="invisible md:visible" id="side-link">
             <li className="side-flex">
-            <a className="github" href="https://github.com/Iinguistics" target="_blank"> 
+            <a className="github" href="https://github.com/Iinguistics" target="_blank" rel="noopener noreferrer"> 
             <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-linkedin" width="34" height="34" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#00A1F1" fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z"/>
             <rect x="4" y="4" width="16" height="16" rx="2" />

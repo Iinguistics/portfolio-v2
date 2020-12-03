@@ -36,7 +36,7 @@ const Work = () => {
             <li className="inline p-1 md:p-3">MongoDB</li>
             <li className="inline p-1 md:p-3">Paypal API</li>
             <a href="https://github.com/Iinguistics/tech-factory" target="_blank" rel="noopener noreferrer">
-                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" />
+                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo" />
                 </a>
                 </div>
              </div>
@@ -61,7 +61,7 @@ const Work = () => {
             <li className="inline p-1 md:p-3">Bcrypt</li>
             <li className="inline p-1 md:p-3">Three.js</li>
             <a href="https://github.com/Iinguistics/Hair" target="_blank" rel="noopener noreferrer">
-                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" />
+                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo" />
                 </a>
                 </div>
              <div className="w-2/3 md:w-1/2 ">
@@ -101,7 +101,7 @@ const Work = () => {
             <li className="inline p-1 md:p-3">Alpha Vantage API</li>
             <li className="inline p-1 md:p-3">Axios</li>
             <a href="https://github.com/Iinguistics/stocks-api-react" target="_blank" rel="noopener noreferrer">
-                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" />
+                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo"/>
                 </a>
                 </div>
              </div>
@@ -123,7 +123,7 @@ const Work = () => {
             <li className="inline p-1 md:p-3">HonKit</li>
             <li className="inline p-1 md:p-3"></li>
             <a href="https://github.com/algorithm-archivists/algorithm-archive" target="_blank" rel="noopener noreferrer">
-                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" />
+                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo"/>
                 </a>
                 </div>
 
@@ -164,7 +164,7 @@ const Work = () => {
             <li className="inline p-1 md:p-3">Nasa APOD, LandSat & Rover API's</li>
             <li className="inline p-1 md:p-3">Axios</li>
             <a href="https://github.com/Iinguistics/astrospace" target="_blank" rel="noopener noreferrer">
-                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" />
+                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo" />
                 </a>
                 </div>
              </div>
