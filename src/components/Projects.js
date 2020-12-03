@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom';
+
 
 const Projects = () => {
     useEffect(()=>{
@@ -10,13 +12,15 @@ const Projects = () => {
 
 
     return (
-        <div className="h-full my-4 md:h-screen">
+        <div className=" my-4 ">
+            <Link to="/" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-blue-700 mt-4" rel="noopener noreferrer">Go Back</Link>
+
           <div className="text-center m-auto text-2xl my-5">
               <h3>More Projects</h3>
           </div>
 
           {/* project one */}
-          <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
+          <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20 mb-20">
              <div className="w-2/3 md:w-1/2 ">
              <a href="https://github.com/Iinguistics/ctdi" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
@@ -41,6 +45,14 @@ const Projects = () => {
             <li className="inline p-1 md:p-3">Google Charts</li>
             <li className="inline p-1 md:p-3">Three.js</li>
                 </div>
+             </div>
+
+             {/*codepen little quote project */}
+             <div className="m-auto text-center my-20 h-10">
+                 <h3>Codepen quote generator(vanilla js)</h3>
+                 <a href="https://codepen.io/iinguistics/pen/BazVzzY" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 duration-700">
+                     Click Here
+                     </a>
              </div>
         </div>
           

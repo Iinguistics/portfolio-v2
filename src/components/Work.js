@@ -8,18 +8,42 @@ const Work = () => {
             <div className="divider"></div> 
            </div>
 
-            {/* Hair */}
+           {/* tech-factory / ecommerce */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
              <div className="w-2/3 md:w-1/2 ">
-             <a href="https://hair-salon-site.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+             <a href="https://tech-factory.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
-                    <source src={require("../assets/work/hair-salon.mp4")}
+                    <source src={require("../assets/work/tech-factory.mp4")}
                     type="video/mp4" />
                 Sorry, your browser doesn't support embedded videos.
                     </video> 
                     </a>
                 </div>
-                <div className="w-2/3 md:w-1/2 md:w-1/2 mt-8   p-3">
+                <div className="w-2/3 md:w-1/2 md:w-1/2 mt-8  p-3">
+                <a href="https://tech-factory.herokuapp.com/" target="_blank" rel="noopener noreferrer"
+                   className="text-xl md:text-3xl hover:text-blue-900 duration-700" id="no-underline"
+                >
+                    Tech Factory
+                </a>
+                <div className=" shadow-xl p-5 rounded-lg text-lg">
+                <p>Full stack ecommerce app. User's can login to shop/purchase products. Admins can edit/update users,products & deliveries.
+                </p>
+            </div>
+            
+            <li className="inline p-1 md:p-3">React & Redux</li>
+            <li className="inline p-1 md:p-3">React-Bootstrap</li>
+            <li className="inline p-1 md:p-3">Node.js</li>
+            <li className="inline p-1 md:p-3">MongoDB</li>
+            <li className="inline p-1 md:p-3">Paypal API</li>
+            <a href="https://github.com/Iinguistics/tech-factory" target="_blank" rel="noopener noreferrer">
+                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" />
+                </a>
+                </div>
+             </div>
+
+            {/* Hair */}
+           <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
+           <div className="w-2/3 md:w-1/2 md:w-1/2 mt-8   p-3">
                 <a href="https://hair-salon-site.herokuapp.com/" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-900 duration-700" id="no-underline"
                 >
@@ -39,6 +63,15 @@ const Work = () => {
             <a href="https://github.com/Iinguistics/Hair" target="_blank" rel="noopener noreferrer">
                 <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" />
                 </a>
+                </div>
+             <div className="w-2/3 md:w-1/2 ">
+             <a href="https://hair-salon-site.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+               <video autoPlay muted loop preload="true">
+                    <source src={require("../assets/work/hair-salon.mp4")}
+                    type="video/mp4" />
+                Sorry, your browser doesn't support embedded videos.
+                    </video> 
+                    </a>
                 </div>
              </div>
 
