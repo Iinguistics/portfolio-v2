@@ -12,7 +12,7 @@ const Projects = () => {
 
 
     return (
-        <div className=" my-4 h-full">
+        <div className=" my-4 h-screen">
             <Link to="/" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-blue-700 mt-4" rel="noopener noreferrer">Go Back</Link>
 
           <div className="text-center m-auto text-2xl my-5">
