@@ -12,7 +12,7 @@ const Projects = () => {
 
 
     return (
-        <div className=" my-4 h-full md:h-screen">
+        <div className="  xl:h-screen">
             <Link to="/" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-blue-700 mt-4" rel="noopener noreferrer">Go Back</Link>
 
           <div className="text-center m-auto text-2xl my-5">
@@ -48,7 +48,7 @@ const Projects = () => {
              </div>
 
              {/*codepen little quote project */}
-             <div className="m-auto text-center my-20 h-10">
+             <div className="m-auto text-center ">
                  <h3>Codepen quote generator(vanilla js)</h3>
                  <a href="https://codepen.io/iinguistics/pen/BazVzzY" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 duration-700">
                      Click Here

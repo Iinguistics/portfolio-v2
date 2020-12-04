@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="flex flex-row justify-around h-20 bg-gray-900 items-center text-white text-xl mt-4" >
+        <div className="flex flex-row justify-around h-20 bg-gray-900 items-center text-white text-xl mt-20" >
             <a href="/" >
             <p>JG</p>
             </a>
