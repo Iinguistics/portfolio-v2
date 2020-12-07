@@ -98,8 +98,8 @@ const Work = () => {
             </div>
             
             <li className="inline p-1 md:p-3">React</li>
+            <li className="inline p-1 md:p-3">React-chartjs</li>
             <li className="inline p-1 md:p-3">Alpha Vantage API</li>
-            <li className="inline p-1 md:p-3">Axios</li>
             <a href="https://github.com/Iinguistics/stocks-api-react" target="_blank" rel="noopener noreferrer">
                 <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo"/>
                 </a>
