@@ -161,6 +161,7 @@ const Work = () => {
             </div>
             
             <li className="inline p-1 md:p-3">React</li>
+            <li className="inline p-1 md:p-3">Tailwind css</li>
             <li className="inline p-1 md:p-3">Nasa APOD, LandSat & Rover API's</li>
             <li className="inline p-1 md:p-3">Axios</li>
             <a href="https://github.com/Iinguistics/astrospace" target="_blank" rel="noopener noreferrer">
