@@ -22,6 +22,10 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      james: {
+        100: '#252525',
+      },
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',

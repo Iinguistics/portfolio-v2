@@ -3,19 +3,18 @@ import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 import About from './About';
 import Skills from './Skills';
-import Work from './Work';
+import Work from './Work'; 
 import Contact from './Contact';
 
 const Home = () => {
    return(
        <Fragment>
-         <section className="w-2/3 ml-16 my-16 md:ml-24 md:mt-10 md:h-screen xl:mt-36">
+         <section className="w-3/4 ml-16 my-40  md:ml-24 xl:h-screen xl:mt-40">
          <h5>Hi, my name is</h5>
-            <h1 className="text-xl md:text-5x1 xl:text-6xl">James Goytia</h1>
-            <h3 className="text-xl md:text-5xl xl:text-6x1 md:w-2/3 leading-snug">I want to build things that make a difference</h3>
-            <p className="text-base xl:text-lg my-3 md:w-1/3 md:my-6">I'm a front end developer based in El Dorado Hills, CA specializing in
-                building phenomenal websites, applications, and everything in between.</p>
-            <a href="mailto:jmsgoytia@gmail.com" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-blue-700 mt-4" rel="noopener noreferrer">Get In Touch</a>
+            <h1 className="text-2xl md:text-4x1 xl:text-6xl">James Goytia</h1>
+            <h3 className="text-2xl md:text-4xl xl:text-6xl md:w-3/4 leading-snug">I build things that make a difference</h3>
+            <p className="text-xl  xl:text-lg my-3 md:w-2/3 md:my-4">I'm a front end developer based in El Dorado Hills, CA, specializing in building phenomenal websites, applications, and everything in between.</p>
+            <a href="mailto:jmsgoytia@gmail.com" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-james-100 mt-4" rel="noopener noreferrer">Get In Touch</a>
          </section>
 
          
@@ -49,28 +48,28 @@ const Home = () => {
             <p className="line"></p>
             </li>
         </div>
-
+        
         <ScrollAnimation animateIn="fadeInUp" delay={200}>
-        <section className=" xl:mt-0 md:h-screen my-32 md:my-0"  id="about">
+        <section className="mb-40 xl:mb-48" id="about">
             <About />
         </section>
         </ScrollAnimation>
         
-        <ScrollAnimation animateIn="fadeInUp" delay={200}>
-        <section className="my-4 md:h-screen"  id="skills">
+        <ScrollAnimation animateIn="fadeInUp" delay={200} >
+        <section className="mb-40"  id="skills">
           <Skills />
         </section>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={100}>
-        <section className="my-4"  id="work">
+        <section className="mb-40"  id="work">
           <Work />
         </section>
         </ScrollAnimation>
         <div className="md:h-24 xl:h-40"></div>
         <ScrollAnimation animateIn="fadeInUp" delay={200}>
             <div className="text-center  m-auto">
-            <Link to="/projects" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-600 hover:bg-blue-700 mt-1">Show More</Link>
+            <Link to="/projects" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-600 hover:bg-james-100 mt-1">Show More</Link>
             </div>
         <section className="my-20"  id="contact">
           <Contact />

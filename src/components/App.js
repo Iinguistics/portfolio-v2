@@ -12,7 +12,7 @@ const App = ()=>{
     return(
         <Router>
             <Header />
-            <div className="container m-auto">
+            <div className="container m-auto ">
             <Route path="/" exact component={Home} />
             <Route path="/projects" exact component={Projects} />
             </div>

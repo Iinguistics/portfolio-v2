@@ -8,6 +8,20 @@ html {
     scroll-behavior: smooth;
   }
 
+  body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+    outline: 1px solid slategrey;
+  }
+
 h3{
   font-family: 'Russo One', sans-serif;  
 }
@@ -39,6 +53,7 @@ a{
     left: 0; 
   }
 
+ 
 
 li{
     list-style: none;
@@ -214,8 +229,8 @@ img{
 
 
   video{
-    height: 320px;
-    width: 480px;
+    height: 380px;
+    width: 580px;
 }
 
 /*
@@ -225,6 +240,14 @@ nav
     width: 100%;
     overflow: hidden;
 */
+
+#test{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
 
 #footer{
     width: 100%;

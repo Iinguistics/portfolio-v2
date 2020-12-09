@@ -8,13 +8,13 @@ const Skills = () => {
 
     return (
          <Fragment>
-             <div className="divider-title ">
+             <div className="divider-title md:mb-32">
                 <h3 id="about-title" className="text-2xl ml-20">SKILLS</h3>  
                 <div className="divider"></div> 
               </div>
             
 
-             <div className="flex items-center flex-row flex-wrap  text-center mt-12 xl:mt-32 md:ml-20 justify-center" >
+             <div className="flex items-center flex-row flex-wrap  text-center mt-12 md:ml-20 justify-center" >
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">JavaScript (ES6+)</p>
                  </div>

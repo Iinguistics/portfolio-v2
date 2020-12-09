@@ -12,16 +12,16 @@ const Projects = () => {
 
 
     return (
-        <div className="  xl:h-screen">
-            <Link to="/" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-blue-700 mt-4" rel="noopener noreferrer">Go Back</Link>
+        <div className="h-full 2xl:h-screen ">
+            <Link to="/" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-james-100 mt-20" rel="noopener noreferrer">Go Back</Link>
 
           <div className="text-center m-auto text-2xl my-5">
               <h3>More Projects</h3>
           </div>
 
           {/* ctdi */}
-          <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20 mb-20">
-             <div className="w-2/3 md:w-1/2 ">
+          <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20 mb-16">
+             <div className="w-3/4 md:w-1/2 lg:bg-james-100 lg:pl-3">
              <a href="https://github.com/Iinguistics/ctdi" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
                     <source src={require("../assets/work/ctdi.mp4")}
@@ -30,7 +30,7 @@ const Projects = () => {
                     </video> 
                     </a>
                 </div>
-                <div className="w-2/3 md:w-1/2 md:w-1/2 mt-10 md:mt-0 p-3">
+                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-10 md:mt-0 p-3">
                 <a href="https://github.com/Iinguistics/ctdi" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-900 duration-700" id="no-underline"
                 >
@@ -48,7 +48,7 @@ const Projects = () => {
              </div>
 
              {/*codepen little quote project */}
-             <div className="m-auto text-center ">
+             <div className="m-auto text-center">
                  <h3>Codepen quote generator(vanilla js)</h3>
                  <a href="https://codepen.io/iinguistics/pen/BazVzzY" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 duration-700">
                      Click Here
