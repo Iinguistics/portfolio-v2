@@ -9,7 +9,7 @@ import Contact from './Contact';
 const Home = () => {
    return(
        <Fragment>
-         <section className="w-3/4 ml-16 my-40  md:ml-24 xl:h-screen xl:mt-40">
+         <section className="w-3/4 ml-16 my-40  md:ml-24  xl:mb-48 xl:mt-40">
          <h5>Hi, my name is</h5>
             <h1 className="text-2xl md:text-4x1 xl:text-6xl">James Goytia</h1>
             <h3 className="text-2xl md:text-4xl xl:text-6xl md:w-3/4 leading-snug">I build things that make a difference</h3>
