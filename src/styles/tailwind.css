@@ -249,6 +249,10 @@ nav
     z-index: 1;
 }
 
+.mp4-background{
+  box-shadow: 8px 5px 5px #203ADE;
+}
+
 #footer{
     width: 100%;
     bottom: 0;

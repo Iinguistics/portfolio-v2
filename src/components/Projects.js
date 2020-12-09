@@ -21,7 +21,7 @@ const Projects = () => {
 
           {/* ctdi */}
           <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20 mb-16">
-             <div className="w-3/4 md:w-1/2 lg:bg-james-100 lg:pl-3">
+             <div className="w-3/4 md:w-1/2 mp4-background">
              <a href="https://github.com/Iinguistics/ctdi" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
                     <source src={require("../assets/work/ctdi.mp4")}

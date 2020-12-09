@@ -10,7 +10,7 @@ const Work = () => {
 
            {/* tech-factory / ecommerce */}
            <div className="flex flex-col md:flex-row mt-12 items-center md:ml-20">
-             <div className="w-3/4 md:w-1/2 lg:bg-james-100 lg:pl-3">
+             <div className="w-3/4 md:w-1/2 mp4-background">
              <a href="https://tech-factory.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
                     <source src={require("../assets/work/tech-factory.mp4")}
@@ -64,7 +64,7 @@ const Work = () => {
                 <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo" />
                 </a>
                 </div>
-             <div className="w-3/4 md:w-1/2 lg:bg-james-100 lg:pl-3">
+             <div className="w-3/4 md:w-1/2 mp4-background">
              <a href="https://hair-salon-site.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
                     <source src={require("../assets/work/hair-salon.mp4")}
@@ -77,7 +77,7 @@ const Work = () => {
 
               {/* stock search */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
-             <div className="w-3/4 md:w-1/2 lg:bg-james-100 lg:pl-3">
+             <div className="w-3/4 md:w-1/2 mp4-background">
              <a href="https://stock-api.netlify.app/" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
                     <source src={require("../assets/work/stock-project.mp4")}
@@ -127,7 +127,7 @@ const Work = () => {
                 </a>
                 </div>
 
-                <div className="w-3/4 md:w-1/2 lg:bg-james-100 lg:pl-3">
+                <div className="w-3/4 md:w-1/2 mp4-background">
              <a href="https://www.algorithm-archive.org/" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
                     <source src={require("../assets/work/algo-archive.mp4")}
@@ -140,7 +140,7 @@ const Work = () => {
 
                 {/* astrospace */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
-             <div className="w-3/4 md:w-1/2 lg:bg-james-100 lg:pl-3">
+             <div className="w-3/4 md:w-1/2 mp4-background">
              <a href="https://astro-space.netlify.app/" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
                     <source src={require("../assets/work/astro-space.mp4")}
