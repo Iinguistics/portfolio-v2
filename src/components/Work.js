@@ -26,7 +26,7 @@ const Work = () => {
                     Tech Factory
                 </a>
                 <div className=" shadow-xl p-5 rounded-lg text-lg">
-                <p>Full stack ecommerce app. User's can login to shop/purchase products. Admins can edit/update users,products & deliveries.
+                <p>Full stack ecommerce app. User's can login to shop/purchase products. Admins can edit/update users, products & deliveries.
                 </p>
             </div>
             
