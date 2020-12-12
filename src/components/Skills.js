@@ -16,7 +16,7 @@ const Skills = () => {
 
              <div className="flex items-center flex-row flex-wrap  text-center mt-12 md:ml-20 justify-center" >
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
-                 <i className="fas fa-code-branch pr-2"></i><p className="inline">JavaScript (ES6+)</p>
+                 <i className="fas fa-code-branch pr-2"></i><p className="inline">JavaScript <span className="hidden md:contents">(ES6+)</span></p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">HTML & CSS</p>
@@ -50,6 +50,18 @@ const Skills = () => {
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Gulp</p>
+                 </div>
+                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
+                 <i className="fas fa-code-branch pr-2"></i><p className="inline">PHP / Laravel</p>
+                 </div>
+                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
+                 <i className="fas fa-code-branch pr-2"></i><p className="inline">MySQL</p>
+                 </div>
+                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
+                 <i className="fas fa-code-branch pr-2"></i><p className="inline">WordPress</p>
+                 </div>
+                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
+                 <i className="fas fa-code-branch pr-2"></i><p className="inline">Figma</p>
                  </div>
                  <Particles id="particles-js" className="invisible md:visible"
     params={{
