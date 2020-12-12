@@ -261,6 +261,11 @@ nav
     
 }
 
+#linkedin-icon-footer{
+  height: 48px;
+  width: 48px;
+}
+
 
   @media (max-width: 767px) {
     .blendParent {

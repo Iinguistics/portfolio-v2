@@ -19558,6 +19558,11 @@ nav
   bottom: 0;
 }
 
+#linkedin-icon-footer{
+  height: 48px;
+  width: 48px;
+}
+
 @media (max-width: 767px) {
   .blendParent {
     width: 200px;
