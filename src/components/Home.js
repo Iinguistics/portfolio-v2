@@ -30,7 +30,6 @@ const Home = () => {
         </div>
 
 
-         {/* side link/linkdn  MAKE LINKDIN ACC & UPDATE HREF */}
         <div className="invisible md:visible" id="side-link">
             <li className="side-flex">
             <a className="github" href="https://www.linkedin.com/in/JamesGoytia" target="_blank" rel="noopener noreferrer"> 

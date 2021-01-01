@@ -169,6 +169,38 @@ const Work = () => {
                 </a>
                 </div>
              </div>
+
+             {/* natura */}
+           <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
+             
+             <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8  p-3">
+             <a href="https://natura-app.netlify.app/" target="_blank" rel="noopener noreferrer"
+                className="text-xl md:text-3xl hover:text-blue-900 duration-700" id="no-underline"
+             >
+                Natura
+             </a>
+             <div className=" shadow-xl p-5 rounded-lg text-lg">
+             <p>Find's natural current event's around the globe. </p>
+         </div>
+         <li className="inline p-1 md:p-3">React</li>
+         <li className="inline p-1 md:p-3">Tailwind</li>
+         <li className="inline p-1 md:p-3">Google Maps</li>
+         <li className="inline p-1 md:p-3">Nasa EONET</li>
+         <a href="https://github.com/Iinguistics/natura" target="_blank" rel="noopener noreferrer">
+             <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo"/>
+             </a>
+             </div>
+
+             <div className="w-3/4 md:w-1/2 mp4-background">
+          <a href="https://natura-app.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <video autoPlay muted loop preload="true">
+                 <source src={require("../assets/work/natura.mp4")}
+                 type="video/mp4" />
+             Sorry, your browser doesn't support embedded videos.
+                 </video> 
+                 </a>
+             </div>
+          </div>
         </Fragment>   
     )
 }
