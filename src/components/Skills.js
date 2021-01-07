@@ -28,7 +28,7 @@ const Skills = () => {
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Vue</p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
-                 <i className="fas fa-code-branch pr-2"></i><p className="inline">Tailwind & Bootstrap</p>
+                 <i className="fas fa-code-branch pr-2"></i><p className="inline">Bootstrap</p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">JQuery</p>
@@ -61,7 +61,7 @@ const Skills = () => {
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">WordPress</p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
-                 <i className="fas fa-code-branch pr-2"></i><p className="inline">Figma</p>
+                 <i className="fas fa-code-branch pr-2"></i><p className="inline">Tailwind</p>
                  </div>
                  <Particles id="particles-js" className="invisible md:visible"
     params={{
