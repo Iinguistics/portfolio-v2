@@ -201,6 +201,38 @@ const Work = () => {
                  </a>
              </div>
           </div>
+
+          {/* fork */}
+          <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
+             <div className="w-3/4 md:w-1/2 mp4-background">
+             <a href="https://github.com/Iinguistics/restaurant" target="_blank" rel="noopener noreferrer">
+               <video autoPlay muted loop preload="true">
+                    <source src={require("../assets/work/fork.mp4")}
+                    type="video/mp4" />
+                Sorry, your browser doesn't support embedded videos.
+                    </video> 
+                    </a>
+                </div>
+                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8  p-3">
+                <a href="https://github.com/Iinguistics/restaurant" target="_blank" rel="noopener noreferrer"
+                   className="text-xl md:text-3xl hover:text-blue-900 duration-700" id="no-underline"
+                >
+                    Fork restaurant
+                </a>
+                <div className=" shadow-xl p-5 rounded-lg text-lg">
+                <p>A restaurant site where users can view the menu, place a order online, & request private dining for special events. Employees can log in & view the submitted order's & event's, once the order is complete they can remove it from their list.
+                </p>
+            </div>
+            
+            <li className="inline p-1 md:p-3">PHP / Laravel</li>
+            <li className="inline p-1 md:p-3">Bootstrap</li>
+            <li className="inline p-1 md:p-3">MySQL</li>
+            <li className="inline p-1 md:p-3">Apache</li>
+            <a href="https://github.com/Iinguistics/restaurant" target="_blank" rel="noopener noreferrer">
+                <img src={require("../assets/icons/github-black.png")} className="h-8 m-2" alt="github logo" />
+                </a>
+                </div>
+             </div>
         </Fragment>   
     )
 }
