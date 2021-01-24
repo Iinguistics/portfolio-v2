@@ -58,7 +58,7 @@ const Skills = () => {
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">MySQL</p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
-                 <i className="fas fa-code-branch pr-2"></i><p className="inline">WordPress</p>
+                 <i className="fas fa-code-branch pr-2"></i><p className="inline">Webpack</p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Tailwind</p>
