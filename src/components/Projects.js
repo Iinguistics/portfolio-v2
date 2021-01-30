@@ -48,9 +48,17 @@ const Projects = () => {
              </div>
 
              {/*codepen little quote project */}
-             <div className="m-auto text-center">
+             <div className="m-auto text-center my-4">
                  <h3>Codepen quote generator(vanilla js)</h3>
                  <a href="https://codepen.io/iinguistics/pen/BazVzzY" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 duration-700">
+                     Click Here
+                     </a>
+             </div>
+
+              {/*codepen ffc local weather app */}
+              <div className="m-auto text-center my-4">
+                 <h3>Codepen local weather app(vanilla js)</h3>
+                 <a href="https://codepen.io/iinguistics/pen/ExNxpyB" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 duration-700">
                      Click Here
                      </a>
              </div>
