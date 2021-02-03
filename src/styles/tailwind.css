@@ -170,7 +170,7 @@ img{
 /* blend */
 .blendParent {
     width: 300px;
-    height: 300px;
+    height: 400px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -186,7 +186,7 @@ img{
     transition: all 200ms ease-in-out;
 }
 .blend-3{
-   background-image: url('../assets/about/headshot.jpg');
+   background-image: url('../assets/about/self-portrait-px.png');
 }
 .blendParent:hover .blend, .blendParent:focus .blend{
   background-color: #00d177;
@@ -269,8 +269,8 @@ nav
 
   @media (max-width: 767px) {
     .blendParent {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 380px;
     }
 
     
