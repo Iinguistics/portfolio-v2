@@ -11,7 +11,7 @@ const Work = () => {
            {/* tech-factory / ecommerce */}
            <div className="flex flex-col md:flex-row mt-12 items-center md:ml-20">
              <div className="w-3/4 md:w-1/2 mp4-background">
-             <a href="https://github.com/Iinguistics/tech-factory" target="_blank" rel="noopener noreferrer">
+             <a href="https://tech-factory.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                <video autoPlay muted loop preload="true">
                     <source src={require("../assets/work/tech-factory.mp4")}
                     type="video/mp4" />
@@ -20,7 +20,7 @@ const Work = () => {
                     </a>
                 </div>
                 <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8 p-3">
-                <a href="https://github.com/Iinguistics/tech-factory" target="_blank" rel="noopener noreferrer"
+                <a href="https://tech-factory.herokuapp.com/" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-900 duration-700" id="no-underline"
                 >
                     Tech Factory
