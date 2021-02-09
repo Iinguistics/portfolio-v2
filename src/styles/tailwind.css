@@ -18,8 +18,16 @@ html {
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color: black;
+    background-color: white;
     outline: 1px solid slategrey;
+  }
+
+  body{
+    background: #000000;
+  }
+
+  h3,p,li{
+    color: #fff;
   }
 
 h3{
@@ -28,6 +36,7 @@ h3{
 
 a{
     text-decoration: none;
+    color: #55ACEE;
 }
 
 
@@ -92,11 +101,11 @@ img{
   text-orientation: upright;
   font-size: 12px;
   text-decoration: none;
-  color: #34568B;
+  color: #55ACEE;
   letter-spacing: -2px;
 }
 .side-email-flex a:hover{
-   color: orangered;
+   color: #fff;
    animation: bounce 1s;
 }
 
@@ -125,7 +134,7 @@ img{
   width: 1px;
   height: 100px;
   margin-top: 20px;
-  background-color: orangered;
+  background-color: #fff;
 }
 
 

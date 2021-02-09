@@ -68,7 +68,7 @@ const Home = () => {
         <div className="md:h-24 xl:h-40"></div>
         <ScrollAnimation animateIn="fadeInUp" delay={200}>
             <div className="text-center  m-auto">
-            <Link to="/projects" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-600 hover:bg-james-100 mt-1">Show More</Link>
+            <Link to="/projects" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-800 hover:bg-james-100 mt-1">Show More</Link>
             </div>
         <section className="my-20"  id="contact">
           <Contact />

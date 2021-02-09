@@ -30,13 +30,13 @@ const Projects = () => {
                     </video> 
                     </a>
                 </div>
-                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-10 md:mt-0 p-3">
+                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-10 md:mt-0 p-5">
                 <a href="https://github.com/Iinguistics/ctdi" target="_blank" rel="noopener noreferrer"
-                   className="text-xl md:text-3xl hover:text-blue-900 duration-700" id="no-underline"
+                   className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
                 >
                     CTDI
                 </a>
-                <div className=" shadow-xl p-5 rounded-lg text-lg">
+                <div className="shadow-darkTheme p-5 rounded-lg text-lg">
                 <p>Focused on learning UI libraries, threejs,hovereffect, blotterjs, animejs & google charts to name a few.
                 </p>
             </div>

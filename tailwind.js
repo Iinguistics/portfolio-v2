@@ -93,7 +93,7 @@ module.exports = {
         900: '#234e52',
       },
       blue: {
-        100: '#ebf8ff',
+        100: '#FFFFFF',
         200: '#bee3f8',
         300: '#90cdf4',
         400: '#63b3ed',
@@ -222,6 +222,7 @@ module.exports = {
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
       none: 'none',
+      darkTheme: '0 17px 22px -5px rgba(25, 25, 25), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
     },
     container: {},
     cursor: {

@@ -77,13 +77,13 @@ const Skills = () => {
             }
           },
           "color": {
-            "value": "#121212"
+            "value": "#333"
           },
           "shape": {
             "type": "circle",
             "stroke": {
               "width": 0,
-              "color": "#121212"
+              "color": "#333"
             },
             "polygon": {
               "nb_sides": 5
