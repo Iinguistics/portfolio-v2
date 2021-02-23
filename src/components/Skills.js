@@ -14,16 +14,16 @@ const Skills = () => {
               </div>
             
              <div className="flex items-center flex-row flex-wrap  text-center mt-12 md:ml-20 justify-center " >
-                 <div className="w-1/4  md:w-1/4 mb-16 md:text-xl">
+                 <div className="w-1.5/4  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">JavaScript <span className="hidden md:contents">(ES6+)</span></p>
                  </div>
-                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
+                 <div className="w-1.5/4  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">HTML & CSS</p>
                  </div>
-                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
+                 <div className="w-1.5/4  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">React / Redux</p>
                  </div>
-                 <div className="w-1/4  md:w-1/4 mb-16 md:text-xl">
+                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Next.js</p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
@@ -32,7 +32,7 @@ const Skills = () => {
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Vue</p>
                  </div>
-                 <div className="w-1/4  md:w-1/4 mb-16 md:text-xl">
+                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Bootstrap</p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
@@ -41,13 +41,13 @@ const Skills = () => {
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Node.js</p>
                  </div>
-                 <div className="w-1/4  md:w-1/4 mb-16 md:text-xl">
+                 <div className="w-1.5/4  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Git</p>
                  </div>
                  <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Mongo DB</p>
                  </div>
-                 <div className="w-1/3  md:w-1/4 mb-16 md:text-xl">
+                 <div className="w-1.5/4  md:w-1/4 mb-16 md:text-xl">
                  <i className="fas fa-code-branch pr-2"></i><p className="inline">Data structures</p>
                  </div>
                  <div className="w-1/4  md:w-1/4 mb-16 md:text-xl">
