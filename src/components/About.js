@@ -4,7 +4,7 @@ const About = () => {
     return (
         <Fragment>
           <div className="divider-title items-center">
-            <h3 id="about-title" className="text-2xl ml-16 md:ml-20">About Me</h3>  
+            <h3 id="about-title" className="text-2xl ml-12 md:ml-20 mb-2">About Me</h3>  
             <div className="divider"></div> 
            </div>
 
@@ -14,7 +14,7 @@ const About = () => {
                     <p className="text-xl">I enjoy finding creative solutions to challenging problems.</p> <br />
                     <p className="text-xl"> I am a self-starter and a life-long learner with excellent attention to detail, focused on creating software that has a positive impact on people's lives.</p><br />
                 </div>
-                <div className="w-2/3 md:w-1/2  mt-10 md:mt-0">
+                <div className="w-3/4 md:w-1/2  mt-10 md:mt-0 items-center">
                 <a href="https://github.com/Iinguistics" target="_blank" rel="noopener noreferrer">
                   <div className="blendParent item"><div className="blend-3 all"></div></div>
                 </a> 

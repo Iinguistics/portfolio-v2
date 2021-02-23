@@ -10,8 +10,6 @@ const Home = () => {
    return(
        <Fragment>
          <section className="w-3/4 ml-16 my-40  md:ml-24  xl:mb-48 xl:mt-40">
-         <h5>Hi, my name is</h5>
-            <h1 className="text-2xl md:text-4x1 xl:text-6xl">James Goytia</h1>
             <h3 className="text-2xl md:text-4xl xl:text-6xl md:w-3/4 leading-snug">I build things that make a difference</h3>
             <p className="text-xl  xl:text-lg my-3 md:w-2/3 md:my-4">I'm a front end developer based in El Dorado Hills, CA, specializing in building phenomenal websites, applications, and everything in between.</p>
             <a href="mailto:jmsgoytia@gmail.com" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-james-100 mt-4" rel="noopener noreferrer">Get In Touch</a>

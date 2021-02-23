@@ -38,7 +38,7 @@ const Header = () => {
             
               <Link to="/" onClick={()=> toTop()}
                className="flex-shrink-0 text-gray-300 text-xl font-extrabold" id="no-underline">
-              J<span className="text-red-600 lg:text-black">G</span>
+              J<span className="text-red-600">G</span>
               </Link>
             
             <div className="hidden sm:block sm:ml-6 custom-nav">
