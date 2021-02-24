@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
-
+import { GoBack } from './Helpers/Buttons';
 
 const Projects = () => {
     useEffect(()=>{
@@ -13,7 +13,7 @@ const Projects = () => {
 
     return (
         <div className="h-full 2xl:h-screen ">
-            <Link to="/" className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-small text-white bg-gray-900 hover:bg-james-100 mt-20" rel="noopener noreferrer">Go Back</Link>
+            <Link to="/" rel="noopener noreferrer"><GoBack /></Link>
 
           <div className="text-center m-auto text-2xl my-5">
               <h3>More Projects</h3>
@@ -30,7 +30,7 @@ const Projects = () => {
                     </video> 
                     </a>
                 </div>
-                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-10 md:mt-0 p-5">
+                <div className="w-3.5/4 md:w-1/2 md:w-1/2 mt-10 md:mt-0 p-5">
                 <a href="https://github.com/Iinguistics/ctdi" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
                 >
