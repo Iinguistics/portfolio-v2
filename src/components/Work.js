@@ -19,7 +19,7 @@ const Work = () => {
                     </video> 
                     </a>
                 </div>
-                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8 p-5">
+                <div className="w-3.5/4 md:w-1/2 md:w-1/2 mt-8 p-5">
                 <a href="https://tech-factory.herokuapp.com/" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
                 >
@@ -43,7 +43,7 @@ const Work = () => {
 
             {/* Hair */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
-           <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8 p-5">
+           <div className="w-3.5/4 md:w-1/2 md:w-1/2 mt-8 p-5">
                 <a href="https://hair-salon-site.herokuapp.com/" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
                 >
@@ -86,7 +86,7 @@ const Work = () => {
                     </video> 
                     </a>
                 </div>
-                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8  p-5">
+                <div className="w-3.5/4 md:w-1/2 md:w-1/2 mt-8  p-5">
                 <a href="https://stock-api.netlify.app/" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
                 >
@@ -109,7 +109,7 @@ const Work = () => {
              {/* algorithm archive */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
              
-                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8 p-5">
+                <div className="w-3.5/4 md:w-1/2 md:w-1/2 mt-8 p-5">
                 <a href="https://www.algorithm-archive.org/" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
                 >
@@ -149,7 +149,7 @@ const Work = () => {
                     </video> 
                     </a>
                 </div>
-                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8  p-5">
+                <div className="w-3.5/4 md:w-1/2 md:w-1/2 mt-8  p-5">
                 <a href="https://astro-space.netlify.app/" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
                 >
@@ -173,7 +173,7 @@ const Work = () => {
              {/* natura */}
            <div className="flex flex-col md:flex-row mt-12 xl:mt-32 items-center md:ml-20">
              
-             <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8 p-5">
+             <div className="w-3.5/4 md:w-1/2 md:w-1/2 mt-8 p-5">
              <a href="https://natura-app.netlify.app/" target="_blank" rel="noopener noreferrer"
                 className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
              >
@@ -213,7 +213,7 @@ const Work = () => {
                     </video> 
                     </a>
                 </div>
-                <div className="w-3/4 md:w-1/2 md:w-1/2 mt-8  p-5">
+                <div className="w-3.5/4 md:w-1/2 md:w-1/2 mt-8  p-5">
                 <a href="https://github.com/Iinguistics/restaurant" target="_blank" rel="noopener noreferrer"
                    className="text-xl md:text-3xl hover:text-blue-100 duration-700 p-3" id="no-underline"
                 >
